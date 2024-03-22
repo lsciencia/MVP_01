@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="income_expense.js"></script>
+    <link rel="stylesheet" href="income_expense.css">
+</head>
+
+<body>
+    <!-- Add this navigation referencing menu.html -->
+    <nav>
+        <a href="../home/home.html">Início</a>
+        <a href="../categories/categories.html">Categorias</a>
+        <a href="../income_expense/income_expense.html">Entrada</a>
+        <a href="../income_expense/income_expense.html">Saída</a>
+    </nav>
+
+    <div>
+        <h1>Entrada/Saída</h1>
+    </div>
+
+    <form>
+        <label for="value">Valor:</label>
+        <br>
+        <input type="text" id="value" name="value">
+        <br>
+
+        <label for="date">Data:</label>
+        <br>
+        <input type="date" id="date" name="date">
+        <br>
+
+        <label for="value">Categoria:</label>
+        <br>
+        <select name="category" id="category">
+            <option value="food">Alimento</option>
+            <option value="cloth">Vestimenta</option>
+            <option value="trip">Viagem</option>
+        </select>
+        <br>
+        <br>
+        
+        <input type="submit" value="Adicionar">
+    </form>
+
+</body>
+</html>
